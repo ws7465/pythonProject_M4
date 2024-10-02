@@ -30,6 +30,15 @@
 from fake_math import divide as fdi
 from true_math import divide as tdi
 #
+result1 = fdi(69, 3)
+result2 = fdi(3, 0)
+result3 = fdi(49, 7)
+result4 = tdi(15, 0)
+print(result1)
+print(result2)
+print(result3)
+print(result4)
+#
 #
 # Пример результата выполнения программы:
 # Исходный код (названия функций могут быть другими):
@@ -41,19 +50,13 @@ from true_math import divide as tdi
 # print(result2)
 # print(result3)
 # print(result4)
+#
 # Вывод на консоль:
 # 23.0
 # Ошибка
 # 7.0
 # inf
 #
-# Примечания:
 #
-#     После импорта from math import inf возврат будет выглядеть так: return inf.
-#     Деление в задаче обычное - '/'.
-#     Не забудьте при импорте функций divide из разных модулей переопределить их
-#     названия.
+# конец задания
 #
-#
-# Файлы с кодом (module_4_1.py, fake_math и true_math) загрузите
-# на GitHub репозиторий и пришлите ссылку на него.

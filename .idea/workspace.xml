@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f39a62a-c45c-409b-9e86-55913c8c120b" name="Changes" comment="module_4.1 20241001 19:27">
+    <list default="true" id="6f39a62a-c45c-409b-9e86-55913c8c120b" name="Changes" comment="module_4.1 20241002 11:47">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fake_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/fake_math.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_4_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/true_math.py" beforeDir="false" afterPath="$PROJECT_DIR$/true_math.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ws7465"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ws7465/pythonProject_M4",
+    "accountId": "f4376b44-428e-4530-8808-77d4a177c75a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -88,12 +98,30 @@
       <option name="project" value="LOCAL" />
       <updated>1727800005045</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="module_4.1 20241002 11:43">
+      <option name="closed" value="true" />
+      <created>1727858662869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727858662869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="module_4.1 20241002 11:47">
+      <option name="closed" value="true" />
+      <created>1727858843612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727858843612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="module_4.1 20241001 19:27" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_4.1 20241001 19:27" />
+    <MESSAGE value="module_4.1 20241002 11:43" />
+    <MESSAGE value="module_4.1 20241002 11:47" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_4.1 20241002 11:47" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
