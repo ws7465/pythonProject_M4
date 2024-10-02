@@ -29,7 +29,7 @@
 #
 from fake_math import divide as fdi
 from true_math import divide as tdi
-
+#
 #
 # Пример результата выполнения программы:
 # Исходный код (названия функций могут быть другими):
