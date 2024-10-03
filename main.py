@@ -14,3 +14,9 @@
 #     print_hi('PyCharm')
 #
 # # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#
+#
+#
+import sys
+for path in sys.path:
+    print(path)
