@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f39a62a-c45c-409b-9e86-55913c8c120b" name="Changes" comment="module_4 20241008 12:02 - sortfunc">
+    <list default="true" id="6f39a62a-c45c-409b-9e86-55913c8c120b" name="Changes" comment="module_4 20241008 17:32 - sortfunc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module_4/sortfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_4/sortfunc.py" afterDir="false" />
     </list>
@@ -50,6 +50,7 @@
     "Python.module_4_1.executor": "Run",
     "Python.module_4_2.executor": "Run",
     "Python.sortfunc.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728378133608</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="module_4 20241008 17:32 - sortfunc">
+      <option name="closed" value="true" />
+      <created>1728397961878</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728397961879</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,7 +233,8 @@
     <MESSAGE value="module_4 20241008 09:59 - sortfunc" />
     <MESSAGE value="module_4 20241008 10:22 - sortfunc" />
     <MESSAGE value="module_4 20241008 12:02 - sortfunc" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_4 20241008 12:02 - sortfunc" />
+    <MESSAGE value="module_4 20241008 17:32 - sortfunc" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_4 20241008 17:32 - sortfunc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

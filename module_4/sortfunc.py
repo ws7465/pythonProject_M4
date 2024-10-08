@@ -1,7 +1,9 @@
 # СОРТИРОВКИ
 #
 #
-nums = [9, 7, 6, 5, 3, 2, 1, 8, 0, 4, 1, 11, 23, 5, 456]
+nums1 = [9, 7, 6, 5, 3, 2, 1, 8, 0, 4, 1, 11, 23, 5, 456]
+nums2 = [9, 7, 6, 5, 3, 2, 1, 8, 0, 4, 1, 11, 23, 5, 456]
+nums3 = [9, 7, 6, 5, 3, 2, 1, 8, 0, 4, 1, 11, 23, 5, 456]
 #
 # 1. Пузырьком
 def bubble_sort(ls) :  #
@@ -18,7 +20,7 @@ def bubble_sort(ls) :  #
 #              выдаст NONE т.к. print сработает до того, как заполнится массив nume
 #bubble_sort(nums)  # заполнение сортированного массива
 #print(nums)
-print(bubble_sort(nums)) #
+print(bubble_sort(nums1)) #
 #
 #
 # 2. Выборкой
@@ -33,24 +35,25 @@ def selection_sort(ls) :  #
 #
 #selection_sort(nums)  # заполнение сортированного массива
 #print(nums)
-print(selection_sort(nums)) #
+print(selection_sort(nums2)) #
 #
 #
-# # 3. Вставкой  - АЛГОРИТМ - ГОВНО !!
-# def insertion_sort(ls) :  #
-#     for i in range(1, len(ls)) : # перебор списка, начиная с 2-го элемента
-#         key = ls[i]  #
-#         j = i - 1
-#         #print(locals())  #
-#         # while ls[j] > key and j >= 0 :  #
-#         #     ls[j + 1] = ls[j]  #
-#         #     print(locals())  #
-#         #     j -= j  #
-#         ls[j + 1] = key  #
-#         #print(locals())  #
-#     return ls
+# # 3. Вставкой
 # #
-# print(insertion_sort(nums)) #
+def insertion_sort(ls):
+    for i in range(len(ls)):
+        cursor = ls[i]
+        pos = i
+        while pos > 0 and ls[pos - 1] > cursor:
+            # Меняем местами число, продвигая по списку
+            ls[pos] = ls[pos - 1]
+            pos = pos - 1
+        # Остановимся и сделаем последний обмен
+        ls[pos] = cursor
+
+    return ls
+#
+print(insertion_sort(nums3)) #
 # #
 #
 #  конец задания
