@@ -12,4 +12,10 @@ def bubble_sort(ls) :  #
         for i in range(len(ls) - 1) : # -1, т.к. предпоследний и последний элементы, обрабатываются в одном, последнем цикле
             if ls[i] > ls[i + 1] : #
                 ls[i], ls[i + 1] = ls[i + 1], ls[i]  #
-                swapped = True  # была перестановка
+                swapped = True  # была перестановка (ставим "флаг")
+#
+#print(bubble_sort(nums)) # ТАК - ничего не будет, выдаст NONE т.к. print сработает до того, как заполнится массив nume
+bubble_sort(nums)  # заполнение сортированного массива
+print(nums)
+#
+#
