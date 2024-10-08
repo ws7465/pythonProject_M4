@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f39a62a-c45c-409b-9e86-55913c8c120b" name="Changes" comment="module_4.2 20241007 15:01">
+    <list default="true" id="6f39a62a-c45c-409b-9e86-55913c8c120b" name="Changes" comment="module_4 20241008 09:05 - sortfunc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_4/sortfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_4/sortfunc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728302507797</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="module_4 20241008 09:05 - sortfunc">
+      <option name="closed" value="true" />
+      <created>1728367583320</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728367583320</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,7 +187,8 @@
     <MESSAGE value="module_4.1 20241007 10:33" />
     <MESSAGE value="module_4.1 20241007 11:33" />
     <MESSAGE value="module_4.2 20241007 15:01" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_4.2 20241007 15:01" />
+    <MESSAGE value="module_4 20241008 09:05 - sortfunc" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_4 20241008 09:05 - sortfunc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
